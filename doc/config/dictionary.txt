@@ -1,0 +1,41 @@
+Maturitni_zkouska => Predmet int
+('Český jazyk a literatura') = 1
+('Anglický jazyk') = 2
+('Německý jazyk') = 3
+('Francouzský jazyk') = 4 
+('Španělský jazyk') = 5
+('Ruský jazyk') = 6
+('Matematika') = 7
+('Matematika rozšiřující') = 8
+('Programové vybavení') = 9
+('Databázové systémy') = 10
+('Počítačové systémy a sítě') = 11 
+('Webové aplikace') = 12
+('Aplikace v praxi') = 13
+('Odborná práce') = 14
+
+Maturitni_zkouska => Typ_zkousky int
+('Povinná zkouška') = 1
+('Nepovinná zkouška') = 2
+
+Maturitni_zkouska => Termin_zkousky int
+('Řádný termín') = 1
+('JNM') = 2
+('Náhradní nebo opravná zkouška') = 3
+
+Prihlaska_k_maturite => Forma_vzdelavani int
+('Denní') = 1
+('Večerní') = 2 
+('Dálková') = 3
+('Distanční') = 4 
+('Kombinovaná') = 5 
+
+Prihlaska_k_maturite => Obor int
+('Informační technologie 18-20-M/01') = 1
+('Elektrotechnika 26-41-M/01') = 2
+
+Doporuceni_skolskeho_poradenskeho_zarizeni => Kategorie_PUP int
+('TP') = 1
+('ZP') = 2
+('SP') = 3
+('SPUO') = 4 

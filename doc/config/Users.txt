@@ -1,0 +1,19 @@
+Login: manazer
+Password: 123
+Role: db_datareader
+
+Login: sekretarka
+Password: 123
+Role: db_datareader, db_datawriter
+
+Login: administrator
+Password: 123
+Role: db_owner
+
+Login: developer
+Password: 123
+Role: db_ddladmin
+
+Login: securityAdministrator
+Password: 123
+Role: db_securityadmin
